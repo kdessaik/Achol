@@ -86,6 +86,9 @@ margin-top: -53px;
         padding-top: 50px;
         font-weight: bold;
     }
+    .section-three1> div:hover{
+        background-color: rgb(152, 152, 152);
+    }
 
     .section-four {
         padding: 2%;
@@ -96,10 +99,23 @@ margin-top: -53px;
         margin-top: 5%;
         padding: 2%;
     }
+    label{
+       margin-right: 2%;
+    }
+    .footer-two{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .footer-one> div>a{
+        text-decoration: none;
+        padding: 1%;
+    }
 
-    .footer> div> img{
-        width: 5%;
+    .footer-one> div>a> img{
+        width: 10%;
         border-radius: 30%;
+        
         
 
     }
@@ -107,4 +123,18 @@ margin-top: -53px;
         background-color: gray;
         text-align: center;
     }
+.footer-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-one> div{
+    margin: 2%;
+}
+.div2{
+    padding-left: 200px;
+}
+.footer-two{
+   padding-left: 300px;
+}
    
